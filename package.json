@@ -1,17 +1,13 @@
 {
-	"name": "bookstore",
+	"name": "kavens_chat",
 	"version": "1.0.0",
 	"description": "simple bookstore app",
 	"main": "app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon server.js"
+		"start": "node app.js"
 	},
 	"dependencies": {
-		"body-parser": "*",
-		"express": "*",
-		"mongoose": "*",
-		"nodemon": "^1.15.1"
 	},
 	"author": "Venkat Raman",
 	"license": "ISC"
